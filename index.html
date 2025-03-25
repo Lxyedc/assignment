@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>      <!--引入外部的css样式-->
+</head>
+<body>
+	<!-- 标题及导航栏 -->
+	<h1>Stilloading</h1>
+    <div class="navbar">        <!-- 导航栏的容器 -->  
+        <a href="index.html" class="home">Home</a>     <!-- 导航链接，直接链接到对应的HTML页面 -->  
+        <div class="dropdown">        <!-- 下拉菜单的容器 -->  
+            <button class="dropbtn">
+				Photography
+                <i class="fa fa-caret-down"></i>         <!-- 下拉箭头的图标，使用FontAwesome图标库 -->  
+            </button>
+            <div class="dropdown-content">
+                <a href="Film.html">Film</a>        <!-- 下拉菜单的链接，链接到对应的HTML页面 -->  
+                <a href="Polaroid.html">Polaroid</a>
+            </div>
+        </div>
+        <a href="Aboutme.html">About me</a>
+    </div>
+	<div class="content">                <!-- 内容的容器 -->  
+		<!-- 图片 -->
+		<div class="pho_index">               <!-- 图片的容器 --> 
+			<img src="img/index.jpg" >        <!-- img标签用于插入图片，src属性指定图片的路径 -->  
+		</div>
+		<!-- 内容 -->
+		<p>进，请坐。</p>
+		<p>拍照，是一座桥梁，架起了我和人们的关系。</p>
+
+	</div>
+	<div class="foot_index">
+		<p>©Stilloading Photography</p>
+	</div>
+</body>
+</html>
