@@ -1,0 +1,188 @@
+/* ===============================花期============================ */
+.huaqi1_button{
+	margin-left:250px;
+	margin-top:10px;
+}
+.huaqi1_button button{
+	width:50px;
+	height:30px;
+	border-radius:20px;
+	font-size:19px;
+}
+.huaqi_pic1 {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	margin-left:240px;
+	margin-top:30px;
+}
+
+.huaqi_pic1 img {
+	width: 450px;
+	height: 600px;
+	transition: all 0.5s ease;
+}
+.div_lt{
+	width:50px;
+	height:100px;
+	/* border:1px solid red; */
+	position:absolute;
+	 background-color: #a7a7a7;
+	 opacity: 50%;
+	 margin-top:250px;
+	 text-align:center;
+	 line-height:90px;
+	 font-size:50px;
+}
+.div_gt{
+	width:50px;
+	height:100px;
+	/* border:1px solid red; */
+	position:absolute;
+	 background-color: #a7a7a7;
+	 opacity: 50%;
+	 margin-top:-355px;
+	 margin-left:400px;
+	 text-align:center;
+	 line-height:90px;
+	 font-size:50px;
+}
+.font_huaqi{
+	position:absolute;
+	margin-top:-670px;
+	margin-left:600px;
+}
+.font_huaqi p{
+	width:400px;
+}
+/* =================================花期横向图片======================= */
+.huaqi1_button{
+	margin-left:250px;
+	margin-top:10px;
+}
+.huaqi1_button button{
+	width:50px;
+	height:30px;
+	border-radius:20px;
+	font-size:19px;
+}
+.huaqi_pic_heng {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	margin-left:240px;
+	margin-top:30px;
+}
+
+.huaqi_pic_heng img {
+	width: 650px;
+	height: 500px;
+	transition: all 0.5s ease;
+}
+.huaqi_pic_heng .div_lt{
+	width:50px;
+	height:100px;
+	/* border:1px solid red; */
+	position:absolute;
+	 background-color: #a7a7a7;
+	 opacity: 50%;
+	 margin-top:210px;
+	 text-align:center;
+	 line-height:90px;
+	 font-size:50px;
+}
+.huaqi_pic_heng .div_gt{
+	width:50px;
+	height:100px;
+	/* border:1px solid red; */
+	position:absolute;
+	 background-color: #a7a7a7;
+	 opacity: 50%;
+	 margin-top:-300px;
+	 margin-left:600px;
+	 text-align:center;
+	 line-height:90px;
+	 font-size:50px;
+}
+.font_huaqi_heng{
+	position:absolute;
+	margin-top:-570px;
+	margin-left:700px;
+}
+.font_huaqi_heng p{
+	width:400px;
+}
+/* =============================精灵方形图片======================= */
+.jingling1_button{
+	margin-left:250px;
+	margin-top:10px;
+}
+.jingling1_button button{
+	width:50px;
+	height:30px;
+	border-radius:20px;
+	font-size:19px;
+}
+.jingling_pic1 {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	margin-left:240px;
+	margin-top:30px;
+}
+
+.jingling_pic1 img {
+	width: 600px;
+	height: 600px;
+	transition: all 0.5s ease;
+}
+.jingling_pic1 .div_lt{
+	width:50px;
+	height:100px;
+	/* border:1px solid red; */
+	position:absolute;
+	 background-color: #a7a7a7;
+	 opacity: 50%;
+	 margin-top:250px;
+	 text-align:center;
+	 line-height:90px;
+	 font-size:50px;
+}
+.jingling_pic1 .div_gt{
+	width:50px;
+	height:100px;
+	/* border:1px solid red; */
+	position:absolute;
+	 background-color: #a7a7a7;
+	 opacity: 50%;
+	 margin-top:-350px;
+	 margin-left:550px;
+	 text-align:center;
+	 line-height:90px;
+	 font-size:50px;
+	 z-index:10;
+}
+.font_jingling{
+	position:absolute;
+	margin-top:-640px;
+	margin-left:700px;
+}
+.font_jingling p{
+	width:400px;
+}
+/* ====================================把你拍不到的给你看文字================== */
+.font_pai{
+	position:absolute;
+	margin-top:-670px;
+	margin-left:700px;
+	/* border:1px solid red; */
+	width:600px;
+}
+.font_pai p{
+	width:400px;
+	/* border:1px solid red; */
+	margin-left:100px;
+}
+.font_pai h1{
+	margin-left:100px;
+}

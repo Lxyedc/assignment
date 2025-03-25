@@ -1,0 +1,304 @@
+/* =================================花期==================== */
+.image {                      /*定义了image类的样式，设置了图片位置*/
+	position: absolute;
+	display: inline-block;    /* 使图片元素以行内块元素显示 */  
+	cursor: pointer;          /* 当鼠标悬停在图片上时，鼠标光标变为手形（悬停效果）*/  
+	margin-left:240px;
+	margin-top:530px;
+	
+}
+
+.image img {                 /*.image类下的img元素的样式，并为其添加了一个过渡效果。*/
+	width: 450px;
+	height: 600px;
+	transition: all 0.5s ease;     /* 所有属性的过渡效果为0.5秒的缓和动画，即鼠标悬停在图片上，图片的缩小放大效果 */
+}
+
+.image:hover img {
+	transform: scale(1.1);          /* 当鼠标悬停在图片上时，图片会放大到1.1倍 */
+}
+
+.image .overlay {                    /*定义了.image类下的.overlay子元素的样式。当鼠标悬停在图片上时，这个覆盖层会显示出来。即显示文字的黑色方框*/
+	position: absolute;
+	bottom: 0;                        /* overlay元素的底部与其父元素（即image）的底部对齐 */
+	left: 0;                            /* overlay元素的左边与其父元素的左边对齐 */
+	width: 492px;                     /* overlay的宽度为492像素，即overlay不随着图片的缩小放大而变化，他的大小是不变的*/  
+	height: 20%;                          /* overlay的高度为其父元素高度的20% */ 
+	background-color: rgba(0, 0, 0, 0.5);     /* overlay的背景颜色为半透明的黑色 */  
+	opacity: 0;                                /* overlay的透明度为0，即开始时它是透明的 */  
+	transition: all 0.5s ease;                /* 所有属性的过渡效果为0.5秒的缓和动画 */  
+	margin-left:-21px;                            /* 为overlay元素添加左外边距，使其稍微向左移动 */  
+	margin-bottom:-28px;
+}
+
+.image:hover .overlay {
+	opacity: 1;
+}
+
+.text {                  /*定义了.image类下的.text子元素的样式。当鼠标悬停在图片上时，这个文字会显示出来*/
+	position: absolute;
+	bottom: 6%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	opacity: 0;                       /* text的透明度为0，即开始时它是透明的 */  
+	transition: all 0.5s ease;
+}
+
+.image:hover .text {
+	opacity: 1;
+}
+
+/* =================================精灵==================== */
+.image2 {
+	position: absolute;
+	display: inline-block;
+	cursor: pointer;
+	top:813px;
+	left:700px;
+}
+
+.image2 img {
+	width: 560px;
+	height: 600px;
+	transition: all 0.5s ease;
+}
+
+.image2:hover img {
+	transform: scale(1.1);
+}
+.image2:hover .overlay {
+	opacity: 1;
+}
+
+.image2:hover .text {
+	opacity: 1;
+}
+.image2 .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 618px;
+	height: 25%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: all 0.5s ease;
+	margin-left:-28px;
+	margin-bottom:-28px;
+}
+.image2 .text {
+	position: absolute;
+	bottom: 6%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+/* =================================瘦骨嶙峋==================== */
+.image3 {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	left:240px;
+	top:20px;
+}
+
+.image3 img {
+	width: 1020px;
+	height: 500px;
+	transition: all 0.5s ease;
+}
+
+.image3:hover img {
+	transform: scale(1.1);
+}
+.image3:hover .overlay {
+	opacity: 1;
+}
+
+.image3:hover .text {
+	opacity: 1;
+}
+.image3 .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 1120px;
+	height: 30%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: all 0.5s ease;
+	margin-left:-49px;
+	margin-bottom:-20px;
+}
+.image3 .text {
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+/* =============================polaroid======================== */
+/* 左一 */
+.image_pol {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	margin-left:240px;
+	margin-top:30px;
+}
+
+.image_pol img {
+	width: 300px;
+	height: 400px;
+	transition: all 0.5s ease;
+}
+
+.image_pol:hover img {
+	transform: scale(1.1);
+}
+
+.image_pol .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 330px;
+	height: 20%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: all 0.5s ease;
+	margin-left:-17px;
+	margin-bottom:-17px;
+}
+
+.image_pol:hover .overlay {
+	opacity: 1;
+}
+
+.image_pol .text {
+	position: absolute;
+	bottom: 1%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.image_pol:hover .text {
+	opacity: 1;
+}
+
+/* 左2 */
+.image_pol1 {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	margin-left:40px;
+	margin-top:30px;
+}
+
+.image_pol1 img {
+	width: 300px;
+	height: 400px;
+	transition: all 0.5s ease;
+}
+
+.image_pol1:hover img {
+	transform: scale(1.1);
+}
+
+.image_pol1 .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 330px;
+	height: 20%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: all 0.5s ease;
+	margin-left:-17px;
+	margin-bottom:-17px;
+}
+
+.image_pol1:hover .overlay {
+	opacity: 1;
+}
+
+.image_pol1 .text {
+	position: absolute;
+	bottom: -6%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.image_pol1:hover .text {
+	opacity: 1;
+}
+/* 左3 */
+.image_pol2 {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	margin-left:40px;
+	margin-top:30px;
+}
+
+.image_pol2 img {
+	width: 300px;
+	height: 400px;
+	transition: all 0.5s ease;
+}
+
+.image_pol2:hover img {
+	transform: scale(1.1);
+}
+
+.image_pol2 .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 330px;
+	height: 20%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: all 0.5s ease;
+	margin-left:-17px;
+	margin-bottom:-17px;
+}
+
+.image_pol2:hover .overlay {
+	opacity: 1;
+}
+
+.image_pol2 .text1 {
+	position: absolute;
+	bottom: -6%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	font-size: 22px;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.image_pol2:hover .text1 {
+	opacity: 1;
+}
